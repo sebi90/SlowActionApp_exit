@@ -82,7 +82,6 @@ public class MainActivity extends Activity {
     @Override
     protected void onStop() {
         Log.d("Main", "OnStop");
-
         super.onStop();
 
     }
