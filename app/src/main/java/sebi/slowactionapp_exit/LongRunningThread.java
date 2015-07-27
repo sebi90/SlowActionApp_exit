@@ -50,6 +50,8 @@ public class LongRunningThread extends Thread {
         String message = String.format(format, total);
         Request req = new Request(output, message);
         input.post(req);
+
+        Log.d("run_LongRunningThread", Thread.currentThread().getName() + "ende");
     }
 
     public void pauseThread()
